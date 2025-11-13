@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miyoo Mini Plus - Spécifications Officielles</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .snowflake {
+            position: fixed;
+            top: -10px;
+            z-index: 1;
+            color: white;
+            font-size: 1em;
+            animation: fall linear infinite;
+        }
+        
+        @keyframes fall {
+            to {
+                transform: translateY(100vh);
+            }
+        }
+        
+        .container {
+            max-width: 700px;
+            margin: 50px auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #c41e3a;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #c41e3a;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #165b33;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        
+        h2 {
+            color: #165b33;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+        
+        .specs {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .spec-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .spec-item:last-child {
+            border-bottom: none;
+        }
+        
+        .spec-label {
+            font-weight: bold;
+            color: #495057;
+        }
+        
+        .spec-value {
+            color: #c41e3a;
+            font-weight: 600;
+        }
+        
+        .warning-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .warning-box strong {
+            color: #856404;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #e9ecef;
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+        
+        .emoji {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <!-- Flocons de neige animés -->
+    <div class="snowflake" style="left: 10%; animation-duration: 10s; animation-delay: 0s;">❄</div>
+    <div class="snowflake" style="left: 20%; animation-duration: 12s; animation-delay: 2s;">❄</div>
+    <div class="snowflake" style="left: 30%; animation-duration: 8s; animation-delay: 4s;">❄</div>
+    <div class="snowflake" style="left: 40%; animation-duration: 14s; animation-delay: 1s;">❄</div>
+    <div class="snowflake" style="left: 50%; animation-duration: 11s; animation-delay: 3s;">❄</div>
+    <div class="snowflake" style="left: 60%; animation-duration: 9s; animation-delay: 5s;">❄</div>
+    <div class="snowflake" style="left: 70%; animation-duration: 13s; animation-delay: 2s;">❄</div>
+    <div class="snowflake" style="left: 80%; animation-duration: 10s; animation-delay: 4s;">❄</div>
+    <div class="snowflake" style="left: 90%; animation-duration: 12s; animation-delay: 1s;">❄</div>
+
+    <div class="container">
+        <div class="header">
+            <h1>🎮 Miyoo Mini Plus 🎄</h1>
+            <p class="subtitle">Spécifications Techniques Officielles - Édition Noël 2025</p>
+        </div>
+
+        <h2><span class="emoji">🔧</span> Caractéristiques Principales</h2>
+        <div class="specs">
+            <div class="spec-item">
+                <span class="spec-label">Processeur</span>
+                <span class="spec-value">8 rennes-cores @ 3.5 GHz</span>
+            </div>
+            <div class="spec-item">
+                <span class="spec-label">Mémoire RAM</span>
+                <span class="spec-value">512 lutins DDR5</span>
+            </div>
+            <div class="spec-item">
+                <span class="spec-label">Stockage interne</span>
+                <span class="spec-value">2048 cadeaux de Noël</span>
+            </div>
+            <div class="spec-item">
+                <span class="spec-label">Écran</span>
+                <span class="spec-value">3.5" (7,2 biscuits de Noël)</span>
+            </div>
+            <div class="spec-item">
+                <span class="spec-label">Résolution</span>
+                <span class="spec-value">640x480 bonhommes de neige</span>
+            </div>
+        </div>
+
+        <h2><span class="emoji">🔋</span> Autonomie & Performances</h2>
+        <div class="specs">
+            <div class="spec-item">
+                <span class="spec-label">Batterie</span>
+                <span class="spec-value">47 flocons de neige</span>
+            </div>
+            <div class="spec-item">
+                <span class="spec-label">Autonomie moyenne</span>
+                <span class="spec-value">4h30 (15 courses de traîneau)</span>
+            </div>
+            <div class="spec-item">
+                <span class="spec-label">Temps de charge</span>
+                <span class="spec-value">2h (3 chants de Noël)</span>
+            </div>
+            <div class="spec-item">
+                <span class="spec-label">GPU</span>
+                <span class="spec-value">Turbo Renne 3000</span>
+            </div>
+        </div>
+
+        <h2><span class="emoji">🌡️</span> Conditions d'utilisation</h2>
+        <div class="specs">
+            <div class="spec-item">
+                <span class="spec-label">Température de fonctionnement</span>
+                <span class="spec-value">-25°C à +25°C (climat Pôle Nord)</span>
+            </div>
+            <div class="spec-item">
+                <span class="spec-label">Humidité recommandée</span>
+                <span class="spec-value">60-80% (tempête de neige légère)</span>
+            </div>
+            <div class="spec-item">
+                <span class="spec-label">Altitude maximale</span>
+                <span class="spec-value">3500 mètres (hauteur de vol du traîneau)</span>
+            </div>
+        </div>
+
+        <h2><span class="emoji">📏</span> Dimensions & Poids</h2>
+        <div class="specs">
+            <div class="spec-item">
+                <span class="spec-label">Poids</span>
+                <span class="spec-value">2,3 bonhommes de neige miniatures</span>
+            </div>
+            <div class="spec-item">
+                <span class="spec-label">Dimensions</span>
+                <span class="spec-value">12 x 8 x 1,5 sapins de Noël</span>
+            </div>
+            <div class="spec-item">
+                <span class="spec-label">Épaisseur</span>
+                <span class="spec-value">3 glaçons empilés</span>
+            </div>
+        </div>
+
+        <div class="warning-box">
+            <strong>⚠️ Avertissement important :</strong><br>
+            Ne pas exposer à la chaleur des cheminées. Risque de fonte du système de refroidissement en glace pilée. 
+            En cas d'exposition au soleil d'été, prévoir un rafraîchissement immédiat par 15 lutins certifiés.
+        </div>
+
+        <h2><span class="emoji">🎁</span> Contenu de la boîte</h2>
+        <div class="specs">
+            <div class="spec-item">
+                <span class="spec-label">Console Miyoo Mini Plus</span>
+                <span class="spec-value">x1</span>
+            </div>
+            <div class="spec-item">
+                <span class="spec-label">Câble USB-C en guirlande</span>
+                <span class="spec-value">x1</span>
+            </div>
+            <div class="spec-item">
+                <span class="spec-label">Manuel en parchemin de Noël</span>
+                <span class="spec-value">x1</span>
+            </div>
+            <div class="spec-item">
+                <span class="spec-label">Carte de garantie signée par le Père Noël</span>
+                <span class="spec-value">x1</span>
+            </div>
+            <div class="spec-item">
+                <span class="spec-label">Sachet de neige artificielle (optionnel)</span>
+                <span class="spec-value">x1</span>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>Miyoo Technology Co. - Succursale du Pôle Nord</strong></p>
+            <p>Certifié par l'Association Internationale des Lutins Électroniciens (AILE)</p>
+            <p style="margin-top: 10px; font-size: 0.8em; color: #adb5bd;">
+                Document technique version 2025.12.25 - Ne pas utiliser comme référence officielle 😉
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Animation du compteur de lutins actifs
+        let lutinCounter = 0;
+        function updateLutins() {
+            lutinCounter = Math.floor(Math.random() * 500) + 12;
+        }
+        setInterval(updateLutins, 3000);
+    </script>
+</body>
+</html>
